@@ -153,7 +153,7 @@ GROUP BY 1
 ORDER BY plays DESC
 LIMIT 
     10;
-![top 10 users.png](https://westerngovernorsuniversity-my.sharepoint.com/:i:/r/personal/dlamke_wgu_edu/Documents/top%2010%20users.png?csf=1&web=1&e=Jget9T)
+![top 10 users.png](https://github.com/MsDaniLani/Data-Modeling-with-Postgres/blob/main/top%2010%20users.png)
 
 2. View total song plays by day:
 >SELECT time.start_time::date AS date, COUNT(songplays.songplay_id) AS num_songplays
@@ -161,24 +161,24 @@ FROM songplays
 JOIN time ON songplays.start_time = time.start_time
 GROUP BY date
 ORDER BY date ASC;
-![graph_visualiser-1685553656475.png](https://westerngovernorsuniversity-my.sharepoint.com/:i:/r/personal/dlamke_wgu_edu/Documents/graph_visualiser-1685553656475.png?csf=1&web=1&e=qVA9NU)
+![graph_visualiser-1685553656475.png](https://github.com/MsDaniLani/Data-Modeling-with-Postgres/blob/main/graph_visualiser-1685553656475.png)
 
 3. Select the first 5 rows from the artists table. 
 >SELECT * FROM artists LIMIT 5
-![select-all-from-artists-limit-5.png](https://westerngovernorsuniversity-my.sharepoint.com/:i:/r/personal/dlamke_wgu_edu/Documents/select-all-from-artists-limit-5.png?csf=1&web=1&e=RNc7Zn)
+![select-all-from-artists-limit-5.png](https://github.com/MsDaniLani/Data-Modeling-with-Postgres/blob/main/select-all-from-artists-limit-5.png)
 
 4. Select the first 5 rows from the songs table. 
 >SELECT * FROM songs LIMIT 5
-![select-all-from-songs-limit-5.png](https://westerngovernorsuniversity-my.sharepoint.com/:i:/r/personal/dlamke_wgu_edu/Documents/select-all-from-songs-limit-5.png?csf=1&web=1&e=ulJgPR)
+![select-all-from-songs-limit-5.png](https://github.com/MsDaniLani/Data-Modeling-with-Postgres/blob/main/select-all-from-songs-limit-5.png)
 
 5. Select the first 5 rows from the time table. 
 >SELECT * FROM time LIMIT 5
-![select-all-from-time-limit-5.png](https://westerngovernorsuniversity-my.sharepoint.com/:i:/r/personal/dlamke_wgu_edu/Documents/select-all-from-time-limit-5.png?csf=1&web=1&e=ap2ynn)
+![select-all-from-time-limit-5.png](https://github.com/MsDaniLani/Data-Modeling-with-Postgres/blob/main/select-all-from-time-limit-5.png)
 
 
 6. Select the first 5 rows from the user table.
 >SELECT * FROM users LIMIT 5
-![Select-all-from-users-limit-5](https://westerngovernorsuniversity-my.sharepoint.com/:i:/r/personal/dlamke_wgu_edu/Documents/select-all-from-users-limit-5.png?csf=1&web=1&e=UTWomp)
+![Select-all-from-users-limit-5](https://github.com/MsDaniLani/Data-Modeling-with-Postgres/blob/main/select-all-from-users-limit-5.png)
 
 ## Conclusion
 
