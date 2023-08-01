@@ -28,7 +28,7 @@ This project is part of the Udacity Data Analyst Nanodegree program and involves
 
 ## Purpose and Analytical Goals
 
-The purpose of the Sparkify database is to provide insight into user behavior on the startup music streaming platform. The database schema consists of a fact table and several dimension tables to make querying and summarizing data easy. The ETL process extracts and transforms JSON data into a format that can be loaded into the database using Python and SQL. The goal of this project is to create a database schema and ETL pipeline that will enable Sparkify to analyze user behavior and improve the overall user experience on their music streaming platform.
+The purpose of the Sparkify database is to provide insight into user behavior on the startup music streaming platform. The database schema consists of a fact table and several dimension tables to make querying and summarizing data easy. The ETL process extracts and transforms JSON data into a format that can be loaded into the database using Python and SQL.  The goal of this project is to create a database schema and ETL pipeline that will enable Sparkify to analyze user behavior and improve the overall user experience on their music streaming platform.
 
 ## Project Overview
 
